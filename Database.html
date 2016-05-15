@@ -26,17 +26,15 @@
 </head><!--/head-->
 
 <body>
-	<header id="header">      
+    <header id="header">      
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 overflow">
                    <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                            <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                            <li><a target = "_blank" href="http://facebook.com/keita101"><i class="fa fa-facebook"></i></a></li>
+                            <li><a  target = "_blank" href="http://twitter.com/MoIn140Char"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target = "_blank" href="http://ca.linkedin.com/in/mokeita"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div> 
                 </div>
@@ -51,15 +49,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        
+                    </a>
                     
                 </div>
-                 <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li ><a href="aboutus2.html">About</a></li>                
+                        <li ><a href="index.html">Home</a></li>
+                        <li><a href="aboutus2.html">About</a></li>                
                         <li class="active"><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="index.html">Resume</a></li>
-						<li><a href="contact.html">Contact us</a></li>
+                        <li><a href="resume.html">Resume</a></li>
                     </ul>
                 </div>
                 <div class="search">
@@ -73,6 +74,20 @@
             </div>
         </div>
     </header>
+
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">Data Driven Applications</h1>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+   </section>
     <!--/#header-->
     <section id="portfolio-information" class="padding-top">
         <div class="container">
@@ -84,11 +99,12 @@
                     <div class="project-name overflow">
                         <h2 class="bold"> NSCC Database Api</h2>
                         <ul class="nav navbar-nav navbar-default">
-                            <li><a href="#"><i class="fa fa-clock-o"></i>Entity Framework</a></li>
+                            <li><a  target = "_blank" href="http://nsccapplicantsservice.azurewebsites.net"><i class="fa fa-clock-o"></i>Api Test</a></li>
                         </ul>
                     </div>
                     <div class="project-info overflow">
-                        <h3>Project Info</h3>
+                        <h2>Nscc Database Information</h2>
+                        <p>The use of the code first approach to building database models using the entityframework. The resulting database is then populated and a webservice is built for the database using Odata.The service is then pushed to azure as a rest api.</p>
 							<ul class="elements">
                             <li><i class="fa fa-angle-right"></i>Build the NSCC Application Form Database using Entity Framework </li>
                             <li><i class="fa fa-angle-right"></i>Generate the SQL script and POCO objects resulting from the creation of
@@ -118,7 +134,8 @@ the Model.</li>
     </section>
      <!--/#portfolio-information-->
 
-
+<br/>
+<br/>
     <footer id="footer">
         <div class="container">
             <div class="row">
